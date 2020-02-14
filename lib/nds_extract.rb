@@ -72,7 +72,7 @@ def movies_with_directors_set(source)
     n = 0
     while n < result[i].length do
       result[i][n] = {name => result[i][n][:title]}
-      binding.pry
+ 
       # movies = source[i][:movies][n][:title]
       # result << {name => movies}
       n += 1 
@@ -80,7 +80,7 @@ def movies_with_directors_set(source)
     i += 1
   end 
   pp source
- # binding.pry
+  binding.pry
 end 
 
 # [{:name=>"Byron Poodle",sInName>)> source
