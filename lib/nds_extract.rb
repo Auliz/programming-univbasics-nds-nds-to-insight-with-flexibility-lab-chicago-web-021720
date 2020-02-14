@@ -71,7 +71,8 @@ def movies_with_directors_set(source)
     temp = source[i][:movies]                
     n = 0
     while n < temp.length do
-      result << [temp[n][:director_name] = name]
+      dir_name = temp[n][:director_name]
+      result << [dir_name = name]
       n += 1 
       binding.pry
     end 
