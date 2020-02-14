@@ -73,7 +73,8 @@ def movies_with_directors_set(source)
     while n < temp.length do
       temp_hash = temp[n]
       temp_hash[:director_name] = name
-      result << temp_hash
+      temp_array = [temp_hash]
+      result << temp_array
       n += 1 
      # binding.pry
     end 
