@@ -78,7 +78,14 @@ def movies_with_directors_set(source)
   end 
   pp source
 end 
-
+  director_name1[]
+  [{director_name1: [movie1,movie2]
+  }
+  {
+    director_name1: [movie2]
+  }
+    ]
+  
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
@@ -87,7 +94,7 @@ end
   #
   # RETURN:
   #
-  # Array of Array of hashes containing all of a director's movies. Each movie will need
+  # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
 
 
