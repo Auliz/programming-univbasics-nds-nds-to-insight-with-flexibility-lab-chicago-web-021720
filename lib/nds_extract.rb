@@ -65,7 +65,6 @@ end
 def movies_with_directors_set(source)
   i = 0
   result = []
-  #binding.pry
   while i < source.length do 
     name = source[i][:name]
     n = 0
@@ -78,9 +77,6 @@ def movies_with_directors_set(source)
   end 
   pp result
 end 
-
-  [{director_name1: movie1}, {director_name1: movie2}]
-  
   
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
