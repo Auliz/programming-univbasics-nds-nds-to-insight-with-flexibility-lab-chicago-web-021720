@@ -78,13 +78,9 @@ def movies_with_directors_set(source)
   end 
   pp source
 end 
-  director_name1[]
-  [{director_name1: [movie1,movie2]
-  }
-  {
-    director_name1: [movie2]
-  }
-    ]
+
+  [{director_name1: movie1}, {director_name1: movie2}]
+  
   
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
