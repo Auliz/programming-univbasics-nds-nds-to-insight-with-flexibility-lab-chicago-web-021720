@@ -82,10 +82,10 @@ def movies_with_directors_set(source)
   pp source
  # binding.pry
 end 
-# [{:name=>"Byron Poodle",
-#   :movies=>
-#   [{"Byron Poodle"=>"At the park"}, {"Byron Poodle"=>"On the couch"}]},
-# {:name=>"Nancy Drew", :movies=>[{"Nancy Drew"=>"Biting"}]}]
+
+# [{:name=>"Byron Poodle",sInName>)> source
+#   :movies=>[{:title=>"At the park"}, {:title=>"On the couch"}]},
+# {:name=>"Nancy Drew", :movies=>[{:title=>"Biting"}]}]
 
 # becomes... [[{:title => "Test", :director_name => "A"}], ...[], ... []]
 
