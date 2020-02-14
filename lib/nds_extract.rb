@@ -75,12 +75,12 @@ def movies_with_directors_set(source)
       temp_hash[:director_name] = name
       result << temp_hash
       n += 1 
-      binding.pry
+     # binding.pry
     end 
     i += 1
   end 
-  #pp source
-  binding.pry
+  result
+ # binding.pry
 end 
 
 # [{:name=>"Byron Poodle",sInName>)> source
