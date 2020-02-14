@@ -70,7 +70,7 @@ def movies_with_directors_set(source)
     n = 0
     while n < source[i][:movies].length do
       movies = source[i][:movies][n][:title]
-      result << {name => [movies]}
+      result << {name => movies}
       n += 1 
     end 
     i += 1
