@@ -79,7 +79,7 @@ def movies_with_directors_set(source)
     end 
     i += 1
   end 
-  return result
+  pp result
  # binding.pry
 end 
 
