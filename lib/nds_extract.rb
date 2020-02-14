@@ -78,10 +78,13 @@ def movies_with_directors_set(source)
     end 
     i += 1
   end 
-  pp result
+  pp source
  # binding.pry
 end 
-#   [[{director_name => byron poodle}, {"title"=>"At the park"}, {"Byron Poodle"=>"On the couch"}],
+
+# becomes... [[{:title => "Test", :director_name => "A"}], ...[], ... []]
+
+#   [[{"Byron Poodle"=>"At the park"}, {"Byron Poodle"=>"On the couch"}],
 # [{"Nancy Drew"=>"Biting"}]]
  
   # GOAL: For each director, find their :movies Array and stick it in a new Array
